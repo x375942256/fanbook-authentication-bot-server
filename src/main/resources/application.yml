@@ -1,0 +1,17 @@
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 20
+  profiles:
+    active: dev1
+server:
+  port: 9998
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml
+logging:
+  level:
+    com:
+      example:
+        demo: debug
+
