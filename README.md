@@ -1,2 +1,7 @@
 # fanbook-authentication-bot-server
 fanbook身份认证
+该项目基于fanbook开放平台开发与腾讯文档开发，实现读取腾讯文档内容匹配fanbook绑定的手机号分配指定角色
+
+初始化操作：
+1、录入一个腾讯文档用户用于读取腾讯文档内容（该用户需要有文档读取导出权限） 存入到t_config表中
+2、配置fanbook服务器ID和腾讯文档ID进行关联（目前只支持1对1配置，即即fanbook服务器对应一个文档）存入到t_word表中
